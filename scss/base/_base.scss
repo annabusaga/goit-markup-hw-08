@@ -1,0 +1,15 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--title-primary);
+    font-size: 14px;
+    background-color: var(--main-light-color);
+}
+
+body.modal-open {
+    overflow: hidden;
+}
+
+
+img {
+    display: block;
+}
