@@ -74,10 +74,90 @@
 
     </header>
 
+    <main>
+        <section class="hero">
+            <div class="container hero__container">
+                <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
+                <button class="main-button" data-modal-open type="button">Замовити послугу</button>
+            </div>
+
+        </section>
+    </main>
+
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button class="button-close" type="button" data-modal-close>
+                <svg class="button-close__icon">
+                    <use href="./images/symbol-defs.svg#icon-close">
+                    </use>
+                </svg>
+            </button>
+            <p class="modal__text">Залиште свої дані, ми вам передзвонимо</p>
+            <form class="form">
+                <label class="form__label" for="name">Ім'я</label>
+                <div class="form__wrapper">
+                    <input class="form__input" id="name" type="text">
+                    <svg class="form__icon">
+                        <use href="./images/symbol-defs.svg#icon-person"></use>
+                    </svg>
+                </div>
+
+                <label class="form__label" for="phone">Телефон</label>
+                <div class="form__wrapper">
+                    <input class="form__input" id="phone" type="text">
+                    <svg class="form__icon">
+                        <use href="./images/symbol-defs.svg#icon-phone"></use>
+                    </svg>
+                </div>
+
+                <label class="form__label" for="email">Пошта</label>
+                <div class="form__wrapper">
+                    <input class="form__input" id="email" type="text">
+                    <svg class="form__icon">
+                        <use href="./images/symbol-defs.svg#icon-email"></use>
+                    </svg>
+                </div>
+
+                <label class="form__label" for="name">Коментар</label>
+                <textarea class="form__textarea" placeholder="Введіть текст"></textarea>
+
+                <input class="form__checkbox-input visually-hidden" id="terms-checkbox" type="checkbox"
+                    name="terms-checkbox">
+
+                <label class="form__checkbox-label" for="terms-checkbox">
+                    <svg class="form__checkbox-icon">
+
+                        <use class="form__unaccept" href="./images/symbol-defs.svg#icon-vector">
+                        </use>
+
+                        <use class="form__accept" href="./images/symbol-defs.svg#icon-check">
+                        </use>
+
+                    </svg>
+                    Погоджуюся з розсилкою та приймаю &nbsp;
+                    <a class="form__checkbox-link" href="#">Умови договору</a>
+                </label>
+
+                <button class="main-button" type="submit">Відправити</button>
+
+
+            </form>
+
+        </div>
+    </div>
+
+
+
+
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
         integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
         crossorigin="anonymous"></script>
     <script defer src="./js/mobile-menu.js"></script>
+
+
+    <script defer src="./js/modal.js"></script>
+
+
 
 
 
