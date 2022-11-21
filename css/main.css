@@ -245,6 +245,7 @@ p {
   padding-bottom: 118px;
   margin: 0 auto;
   background-size: cover;
+  background-position: center;
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/bg/bg-480-1.jpg);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bg/bg-480-1.jpg);
 }
@@ -272,6 +273,7 @@ p {
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/bg/bg-1200-1.jpg);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bg/bg-1200-1.jpg);
     max-width: 1600px;
+    padding: 200px 0;
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (min-resolution: 192dpi) and (min-width: 1200px), screen and (min-resolution: 2dppx) and (min-width: 1200px) {
@@ -284,6 +286,11 @@ p {
 .hero__container {
   max-width: 360px;
 }
+@media screen and (min-width: 1200px) {
+  .hero__container {
+    max-width: 700px;
+  }
+}
 
 .hero__title {
   font-weight: 900;
@@ -294,6 +301,11 @@ p {
   text-transform: uppercase;
   color: var(--main-light-color);
   margin-bottom: 30px;
+}
+@media screen and (min-width: 1200px) {
+  .hero__title {
+    font-size: 44px;
+  }
 }
 
 .main-button {
