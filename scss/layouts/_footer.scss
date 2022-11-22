@@ -7,10 +7,11 @@
 
 .footer__container {
     display: flex;
-    gap: 93px;
+    gap: 60px;
     align-items: baseline;
     flex-direction: column;
     align-items: center;
+
 }
 
 .footer__logotype {
@@ -29,6 +30,7 @@
     text-transform: uppercase;
     color: var(--main-light-color);
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .footer__social-text {
@@ -39,6 +41,7 @@
     text-transform: uppercase;
     color: var(--main-light-color);
     margin-bottom: 20px;
+    text-align: center;
 
 }
 

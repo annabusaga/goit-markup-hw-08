@@ -1,6 +1,8 @@
 .subscribe-form {
     display: flex;
     flex-direction: column;
+    align-items: center;
+
 }
 
 .subscribe-form__input {
@@ -14,6 +16,7 @@
     margin-right: 12px;
     display: flex;
     color: var(--main-light-color);
+    margin-bottom: 20px;
 }
 
 
