@@ -19,17 +19,37 @@
     }
 
 
+    @media screen and (min-width:1200px) {
+
+        justify-content: space-between;
+
+    }
 }
 
 .footer__logotype {
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
+
+    @media screen and (min-width:1200px) {
+        text-align: left;
+        justify-content: start;
+
+    }
 }
 
 .footer__subscribe-box {
     width: 100%;
+
+    @media screen and (min-width:1200px) {
+
+        width: auto;
+
+    }
+
 }
+
+
 
 .footer__subscribe-text {
     font-weight: 700;
@@ -40,6 +60,11 @@
     color: var(--main-light-color);
     margin-bottom: 20px;
     text-align: center;
+
+    @media screen and (min-width:1200px) {
+        text-align: left;
+
+    }
 }
 
 .footer__social-text {
@@ -51,6 +76,11 @@
     color: var(--main-light-color);
     margin-bottom: 20px;
     text-align: center;
+
+    @media screen and (min-width:1200px) {
+        text-align: left;
+
+    }
 
 }
 
