@@ -17,6 +17,11 @@
     display: flex;
     color: var(--main-light-color);
     margin-bottom: 20px;
+
+    @media screen and (min-width:768px) {
+        width: 450px;
+
+    }
 }
 
 

@@ -7,10 +7,19 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
+
+    @media screen and (min-width:768px) {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
 
 .features__item {
     width: 100%;
+
+    @media screen and (min-width:768px) {
+        width: calc((100% - 30px)/2)
+    }
 }
 
 .features__item:not(:last-child) {}
@@ -36,6 +45,10 @@
     color: var(--title-primary);
     margin-bottom: 10px;
     text-align: center;
+
+    @media screen and (min-width:768px) {
+        text-align: left;
+    }
 }
 
 .features__icon {
